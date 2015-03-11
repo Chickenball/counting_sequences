@@ -8,6 +8,7 @@ import os
 
 if len(sys.argv) != 2:
 	print "Please input exactly 2 agruments"
+	sys.exit()
 
 def count_all_seqs(filename):
 	input_file = open(filename)
